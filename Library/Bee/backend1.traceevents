@@ -1,0 +1,643 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1726074829175379, "dur":66, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726074829181251, "dur":56, "ph":"X", "name": "EmitBuildStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726074829175522, "dur":11578, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726074829187121, "dur":165, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726074829187360, "dur":1719, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726074829189316, "dur":186, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":0, "ts":1726074829189516, "dur":181, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":0, "ts":1726074829189750, "dur":123, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":0, "ts":1726074829189882, "dur":254, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1726074829190148, "dur":170, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/level0" }}
+,{ "pid":12345, "tid":0, "ts":1726074829190324, "dur":131, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/level0.resS" }}
+,{ "pid":12345, "tid":0, "ts":1726074829190462, "dur":130, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1726074829190596, "dur":137, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":0, "ts":1726074829190740, "dur":144, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1726074829190889, "dur":316, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":0, "ts":1726074829191214, "dur":106, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1726074829191324, "dur":127, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1726074829191474, "dur":133, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1726074829191623, "dur":135, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":0, "ts":1726074829191794, "dur":116, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829191921, "dur":115, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829192042, "dur":121, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829192564, "dur":116, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829192688, "dur":120, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829192815, "dur":137, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829192960, "dur":112, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829193078, "dur":102, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829193185, "dur":128, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829193320, "dur":126, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829193451, "dur":134, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829193592, "dur":138, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829193737, "dur":143, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829193887, "dur":135, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829194029, "dur":98, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829194132, "dur":106, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829194243, "dur":129, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829194379, "dur":118, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829194504, "dur":136, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829194647, "dur":155, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829198503, "dur":115, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829198637, "dur":149, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829198792, "dur":192, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829199000, "dur":141, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829199146, "dur":139, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829199292, "dur":133, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829199429, "dur":159, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829199593, "dur":164, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829199763, "dur":169, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829199937, "dur":141, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829200101, "dur":117, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829200222, "dur":157, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829200384, "dur":151, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829200540, "dur":167, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829200712, "dur":138, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829200857, "dur":136, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829200997, "dur":147, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829204392, "dur":128, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829204537, "dur":157, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829204709, "dur":145, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829204873, "dur":165, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829205044, "dur":150, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829205209, "dur":133, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829205349, "dur":135, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829205488, "dur":147, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829205651, "dur":108, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829205774, "dur":186, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829205969, "dur":115, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829206090, "dur":134, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829206227, "dur":150, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829206392, "dur":125, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829206527, "dur":118, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829206649, "dur":143, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829206795, "dur":168, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829210200, "dur":104, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829210313, "dur":149, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829210469, "dur":123, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829210596, "dur":115, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829210728, "dur":126, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829210861, "dur":125, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829210990, "dur":120, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829211114, "dur":168, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829211288, "dur":137, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829211431, "dur":128, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829211565, "dur":117, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829211686, "dur":97, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829211789, "dur":174, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829211968, "dur":126, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829212099, "dur":145, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829212262, "dur":111, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829212377, "dur":134, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829215916, "dur":128, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829216051, "dur":173, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829216231, "dur":126, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829216374, "dur":120, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829216500, "dur":126, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829216631, "dur":99, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829216734, "dur":155, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829216895, "dur":130, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829217031, "dur":132, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829217169, "dur":130, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829217305, "dur":176, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829217498, "dur":113, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829217615, "dur":174, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829217799, "dur":121, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829217924, "dur":114, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829218043, "dur":145, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829218193, "dur":174, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829218374, "dur":132, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829221691, "dur":132, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829221830, "dur":135, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829221971, "dur":112, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829222090, "dur":135, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829222232, "dur":129, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829222368, "dur":131, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829222506, "dur":130, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829222643, "dur":130, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829222780, "dur":174, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829222962, "dur":173, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1726074829223152, "dur":150, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1726074829223320, "dur":158, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":0, "ts":1726074829223484, "dur":170, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense.exe" }}
+,{ "pid":12345, "tid":0, "ts":1726074829223660, "dur":119, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829223783, "dur":137, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829223926, "dur":118, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1726074829224048, "dur":133, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1726074829227443, "dur":129, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1726074829227579, "dur":153, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1726074829227740, "dur":160, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1726074829227904, "dur":120, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1726074829228029, "dur":115, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1726074829228148, "dur":128, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1726074829228282, "dur":141, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1726074829228427, "dur":140, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1726074829228573, "dur":148, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1726074829228727, "dur":174, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1726074829228908, "dur":99, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1726074829229011, "dur":131, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1726074829229146, "dur":128, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1726074829229285, "dur":126, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":0, "ts":1726074829229417, "dur":114, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":0, "ts":1726074829229535, "dur":131, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":0, "ts":1726074829229672, "dur":131, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":0, "ts":1726074829229809, "dur":136, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":0, "ts":1726074829189295, "dur":40651, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726074829229948, "dur":1269099, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726074830499048, "dur":749, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726074830500021, "dur":12666, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1726074829189107, "dur":40886, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074829229999, "dur":18927, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074829248985, "dur":477, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074829249497, "dur":329, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1726074829249845, "dur":312, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1726074829250377, "dur":162, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity_projects\\Tower Defense\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726074829250540, "dur":208, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity_projects\\Tower Defense\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726074829250749, "dur":310, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity_projects\\Tower Defense\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726074829251060, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity_projects\\Tower Defense\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726074829251192, "dur":397, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity_projects\\Tower Defense\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726074829251590, "dur":590, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity_projects\\Tower Defense\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726074829252181, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity_projects\\Tower Defense\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726074829252330, "dur":403, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity_projects\\Tower Defense\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726074829249495, "dur":3365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1726074829267811, "dur":98, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074829267918, "dur":103, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074829979128, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074829349790, "dur":629420, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1726074829990680, "dur":643, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1726074829990678, "dur":647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1726074829992604, "dur":1243, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074830028681, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074829993852, "dur":34915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1726074830028784, "dur":334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074830081416, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074830029201, "dur":55932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726074830085303, "dur":338, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074830135954, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074830085696, "dur":50359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726074830136221, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074830184668, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074830136592, "dur":48159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726074830184866, "dur":336, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074830228113, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074830185254, "dur":43036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726074830228448, "dur":367, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074830228865, "dur":57192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726074830286166, "dur":395, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074830332958, "dur":185, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074830286599, "dur":46614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1726074830333371, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074830386585, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074830333616, "dur":53059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1726074830386861, "dur":4327, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074830432121, "dur":109, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1726074830391245, "dur":41038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1726074830432430, "dur":66610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829189320, "dur":40688, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829230017, "dur":6938, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829236956, "dur":574, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829237530, "dur":11428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829248959, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1726074829249454, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829383673, "dur":37719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1726074829421554, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1726074829421832, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829486971, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829454289, "dur":32767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1726074829487181, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1726074829487312, "dur":6996, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829494853, "dur":53088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1726074829548105, "dur":640, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":2, "ts":1726074829548103, "dur":645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense.exe" }}
+,{ "pid":12345, "tid":2, "ts":1726074829548749, "dur":1543, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829550340, "dur":107096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense.exe" }}
+,{ "pid":12345, "tid":2, "ts":1726074829657543, "dur":2876, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829727038, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829660467, "dur":66646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726074829727268, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829774109, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829727594, "dur":46653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726074829774452, "dur":399, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829827018, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829774929, "dur":52175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726074829827214, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829827742, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829886546, "dur":68, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829827810, "dur":58875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726074829886818, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829917413, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829887142, "dur":30360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726074829917659, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829960893, "dur":298, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829921532, "dur":43242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726074829964995, "dur":297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829965354, "dur":69, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074830019037, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074829965498, "dur":53652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726074830019294, "dur":289, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074830070622, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074830019636, "dur":51075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726074830070841, "dur":345, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074830111473, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074830071230, "dur":40333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726074830111692, "dur":321, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074830150603, "dur":122, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074830112058, "dur":38750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726074830151150, "dur":387, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074830201705, "dur":130, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074830151590, "dur":50559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726074830202959, "dur":790, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074830256631, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074830203802, "dur":52920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726074830256851, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074830312064, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074830257289, "dur":54893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726074830313085, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726074830313062, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1726074830313214, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074830313513, "dur":86, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1726074830313641, "dur":185231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726074829190401, "dur":39783, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829230185, "dur":7128, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829237313, "dur":11640, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829248954, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1726074829249408, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829420557, "dur":92, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829353801, "dur":66879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1726074829420903, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1726074829421044, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829470618, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829421482, "dur":49218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1726074829471349, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1726074829471345, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1726074829471490, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829471714, "dur":65, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829547891, "dur":92, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829494484, "dur":53551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1726074829548159, "dur":2255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/Tower Defense_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1726074829550416, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829703385, "dur":123, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829616562, "dur":86991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1726074829703728, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829703894, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829754731, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829703957, "dur":50884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726074829755132, "dur":321, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829787740, "dur":255, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829755574, "dur":32470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726074829788186, "dur":471, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829788734, "dur":514, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829839555, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829789694, "dur":49956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726074829839905, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829840126, "dur":119, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829897960, "dur":87, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829840288, "dur":57785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726074829898175, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829947379, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829901847, "dur":45671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726074829947961, "dur":554, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830001313, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074829948572, "dur":52827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726074830001520, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830039111, "dur":180, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830001846, "dur":37585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726074830039701, "dur":357, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830088563, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830040442, "dur":48201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726074830088783, "dur":415, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830142959, "dur":85, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830089273, "dur":53800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726074830143242, "dur":388, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830198951, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830143687, "dur":55359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726074830199178, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830245829, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830199553, "dur":46368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726074830246055, "dur":377, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830294649, "dur":87, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830246480, "dur":48287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726074830294902, "dur":374, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830341170, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830295646, "dur":45621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1726074830341427, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830341713, "dur":88, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830398661, "dur":261, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1726074830342045, "dur":56909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1726074830404591, "dur":94460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829189680, "dur":40354, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829230043, "dur":7139, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829237182, "dur":11756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829248971, "dur":526, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829249531, "dur":310, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829267948, "dur":105, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829399323, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829306414, "dur":93433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1726074829399856, "dur":245, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1726074829399851, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1726074829400106, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829455121, "dur":129, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829400680, "dur":54671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1726074829455506, "dur":1766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1726074829457274, "dur":621, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829457952, "dur":54371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1726074829512516, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1726074829512646, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829610459, "dur":67, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829547111, "dur":63478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1726074829610762, "dur":1140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829726595, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829611949, "dur":115095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726074829727250, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829766609, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829727517, "dur":39182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726074829766833, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829831203, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829767177, "dur":64114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726074829831519, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829895266, "dur":179, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829831842, "dur":63647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726074829895640, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829947213, "dur":163, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829895969, "dur":51436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726074829948446, "dur":397, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829976900, "dur":269, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829948922, "dur":28569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726074829977714, "dur":601, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830023631, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074829978375, "dur":45427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726074830023965, "dur":342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830078119, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830024368, "dur":53832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726074830078348, "dur":367, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830137175, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830078782, "dur":58478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726074830137380, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830177827, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830137723, "dur":40193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726074830178095, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830217273, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830178344, "dur":39010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726074830217553, "dur":421, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830267753, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830221521, "dur":46330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726074830268112, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830268441, "dur":71, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830323474, "dur":76, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830268656, "dur":54946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1726074830323751, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830323989, "dur":54, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830364881, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830324049, "dur":40924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1726074830365105, "dur":2761, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830367957, "dur":735, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830432100, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1726074830368756, "dur":63507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1726074830432401, "dur":66669, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829189853, "dur":40206, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829230070, "dur":6981, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829237052, "dur":11893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829249006, "dur":542, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1726074829248954, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1726074829249551, "dur":418, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829455101, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829396948, "dur":58447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1726074829456552, "dur":816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1726074829457371, "dur":734, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829541637, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829494372, "dur":47355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1726074829541860, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726074829541854, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726074829541999, "dur":5046, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829637607, "dur":119, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829547680, "dur":96313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726074829644395, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829698156, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829644607, "dur":53657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726074829698398, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829746646, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829698653, "dur":48093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726074829746888, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829786493, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829747173, "dur":39464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726074829786755, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829836156, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829787084, "dur":49152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726074829837752, "dur":1083, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829902249, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829838878, "dur":63452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726074829902470, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829947235, "dur":117, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829902812, "dur":44580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726074829947529, "dur":333, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829990411, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829947915, "dur":42614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726074829990669, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074830032051, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074829992635, "dur":39504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726074830032275, "dur":414, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074830083288, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074830032744, "dur":52408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726074830085380, "dur":496, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074830144354, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074830085921, "dur":58555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726074830144648, "dur":940, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074830201584, "dur":179, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074830145637, "dur":56502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726074830202930, "dur":412, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074830259680, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074830203401, "dur":56408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726074830260626, "dur":394, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074830315811, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074830261076, "dur":54874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1726074830316777, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1726074830320612, "dur":66360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1726074830391277, "dur":107771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829190006, "dur":40085, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829230103, "dur":7141, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829237245, "dur":11750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829248996, "dur":553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1726074829249551, "dur":478, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829267921, "dur":68, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829437675, "dur":67, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829396400, "dur":41394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1726074829437983, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1726074829437968, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1726074829438122, "dur":281, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829454430, "dur":57281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1726074829511832, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1726074829511992, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829551251, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829512246, "dur":39086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1726074829609554, "dur":425, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829726614, "dur":114, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829610176, "dur":116874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726074829727197, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829773805, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829727471, "dur":46428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726074829774096, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829816993, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829774391, "dur":42716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726074829817225, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829848858, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829817492, "dur":31456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726074829906390, "dur":472, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829849527, "dur":57364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726074829907346, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829960946, "dur":361, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829907699, "dur":57081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726074829965271, "dur":296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830019062, "dur":100, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074829965680, "dur":53507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726074830019309, "dur":372, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830075831, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830020120, "dur":55797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726074830076300, "dur":404, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830076796, "dur":218, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830125181, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830077023, "dur":48247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726074830125387, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830167105, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830125713, "dur":44935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726074830170774, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830211742, "dur":324, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830171207, "dur":40975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726074830212536, "dur":390, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830212949, "dur":124, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830261646, "dur":120, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830213153, "dur":48639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726074830261973, "dur":1050, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830263077, "dur":50625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1726074830313991, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830314226, "dur":85, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830357635, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830314317, "dur":43620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1726074830358084, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830405303, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1726074830359749, "dur":45627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1726074830405501, "dur":93571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829190147, "dur":39977, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829230139, "dur":7161, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829237301, "dur":11676, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829249017, "dur":567, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":7, "ts":1726074829248984, "dur":602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1726074829249588, "dur":494, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829437687, "dur":143, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829396437, "dur":41422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1726074829437988, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1726074829438104, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829496746, "dur":98, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829454386, "dur":42665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1726074829497359, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1726074829497354, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1726074829497497, "dur":348, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829547973, "dur":68, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829498347, "dur":50137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1726074829550401, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829731666, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829609702, "dur":122047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726074829731973, "dur":394, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829774413, "dur":119, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829732528, "dur":42074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726074829774951, "dur":442, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829835022, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829776549, "dur":58557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726074829835228, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829870612, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829835547, "dur":35142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726074829870790, "dur":243, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829910595, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829871069, "dur":39609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726074829910854, "dur":309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829960579, "dur":554, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829911291, "dur":53462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726074829965950, "dur":613, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074830021701, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074829966657, "dur":55288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726074830022798, "dur":327, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074830084586, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074830023188, "dur":61973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726074830085327, "dur":424, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074830085794, "dur":57640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726074830143701, "dur":341, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074830144064, "dur":50, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074830199938, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074830144121, "dur":55920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726074830200172, "dur":376, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074830249752, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074830200586, "dur":49256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726074830249987, "dur":407, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074830302857, "dur":160, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074830250454, "dur":52785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726074830303664, "dur":370, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074830351898, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074830304349, "dur":47641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1726074830352113, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074830405253, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1726074830352367, "dur":52997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1726074830405482, "dur":93561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829190306, "dur":39851, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829230167, "dur":7045, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829237212, "dur":11729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829248994, "dur":530, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1726074829248957, "dur":569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1726074829249527, "dur":365, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829330778, "dur":120649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1726074829451542, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1726074829451538, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1726074829451667, "dur":2577, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829512629, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829455044, "dur":57709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1726074829512948, "dur":183, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\unity\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726074829512944, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/unity_projects/Tower Defense Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726074829513138, "dur":13463, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829617003, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829547210, "dur":69880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726074829617214, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829707196, "dur":76, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829617491, "dur":89828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726074829707544, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829749824, "dur":93, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829707871, "dur":42086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726074829750374, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829824313, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829752723, "dur":71674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726074829824518, "dur":238, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829851681, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829824811, "dur":26955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726074829851882, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829903890, "dur":153, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829852239, "dur":51847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726074829905139, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829958285, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829905498, "dur":52872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726074829958489, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074830003593, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074829958845, "dur":44826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726074830003772, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074830068294, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074830004083, "dur":64298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726074830068487, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074830100750, "dur":315, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074830068799, "dur":32329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726074830101282, "dur":321, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074830149876, "dur":87, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074830105023, "dur":45025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726074830150279, "dur":299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074830204216, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074830150643, "dur":53712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726074830204518, "dur":365, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074830257822, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074830204935, "dur":53020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726074830258086, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074830310424, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074830258831, "dur":51691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726074830310663, "dur":416, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074830358011, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074830311131, "dur":47054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1726074830358460, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074830359999, "dur":132, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1726074830360138, "dur":81515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/unity_projects/Tower Defense Build/Tower Defense_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1726074830442133, "dur":56921, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1726074830525343, "dur":95770, "ph":"X", "name": "ProfilerWriteOutput" }
+,
