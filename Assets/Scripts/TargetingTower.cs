@@ -8,9 +8,5 @@ public class TargetingTower : Tower
         Targeter.SetRange(Range);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
 
-    }
 }
