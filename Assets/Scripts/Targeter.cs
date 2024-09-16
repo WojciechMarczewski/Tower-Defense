@@ -40,6 +40,7 @@ public class Targeter : MonoBehaviour
     {
         float lowestDistance = Mathf.Infinity;
         Enemy enemyWithLowestDistance = null;
+
         for (int i = 0; i < Enemies.Count; i++)
         {
             var enemy = Enemies[i];

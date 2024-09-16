@@ -22,7 +22,6 @@ public class SeekingProjectile : Projectile
             if (TargetEnemy != null)
             {
                 TargetEnemy.TakeDamage(Damage);
-
             }
             Destroy(gameObject);
         }

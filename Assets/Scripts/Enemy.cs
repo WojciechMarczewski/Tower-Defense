@@ -3,6 +3,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [Header("References")]
+
     public Transform Trans;
     public Transform ProjectileSeekPoint;
     [Header("Stats")]
@@ -10,6 +11,7 @@ public class Enemy : MonoBehaviour
     [HideInInspector] public float Health;
     [HideInInspector] public bool Alive = true;
     public float HealthGainPerLevel;
+
     private HealthBar healthBar;
 
     // Start is called before the first frame update
@@ -19,8 +21,6 @@ public class Enemy : MonoBehaviour
         Health = MaxHealth;
         healthBar = GetComponentInChildren<HealthBar>();
         healthBar.EnemyTransform = gameObject.transform;
-
-
     }
 
     // Update is called once per frame

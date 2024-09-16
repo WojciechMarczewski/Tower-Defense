@@ -3,7 +3,9 @@ using UnityEngine;
 
 public class HotPlate : TargetingTower
 {
+
     public float DamagePerSecond = 10;
+
     void Update()
     {
         if (Targeter.TargetsAreAvailable)

@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class FiringTower : TargetingTower
 {
+
     [Tooltip("Quick reference to the main Transform component of the tower.")]
     public Transform Trans;
     [Tooltip("Reference to the Transform component where the projectile should initially be placed.")]
@@ -19,9 +20,6 @@ public class FiringTower : TargetingTower
     public float ProjectileSpeed = 60;
     [Tooltip("Can the tower attack flying enemies?")]
     public bool CanAttackFlying = true;
-    private Enemy targetedEnemy;
-    private float lastFireTime = Mathf.NegativeInfinity;
-    private bool isEnemyOutOfRange { get { return Vector3.Distance(Trans.position, targetedEnemy.Trans.position) > Range; } }
 
 
     // Update is called once per frame
@@ -30,6 +28,7 @@ public class FiringTower : TargetingTower
         if (targetedEnemy != null)
         {
             if (!targetedEnemy.Alive || isEnemyOutOfRange)
+
             {
                 GetNextTarget();
             }
@@ -62,6 +61,7 @@ public class FiringTower : TargetingTower
             from.y = 0;
             Quaternion desiredRotation = Quaternion.LookRotation((to - from).normalized, Vector3.up);
             Aimer.rotation = Quaternion.Slerp(Aimer.rotation, desiredRotation, .08f);
+
         }
     }
     private void GetNextTarget()

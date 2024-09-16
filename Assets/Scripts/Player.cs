@@ -41,6 +41,10 @@ public class Player : MonoBehaviour
     [Tooltip("Distance in Y covered by the camera per unit of mouse wheel rotation.")]
     public float ScrollSensitivity = 1.6f;
 
+
+
+    [Tooltip("Distance in Y covered by the camera per unit of mouse wheel rotation.")]
+    public float ScrollSensitivity = 1.6f;
     private enum Mode
     {
         Build,
@@ -64,7 +68,6 @@ public class Player : MonoBehaviour
     public Text CurrentGoldText;
     [Tooltip("Color used for the selected build button.")]
     public Color SelectedBuildButtonColor = new Color(.2f, .8f, .2f);
-
     private Vector3 lastMousePosition;
     private int goldLastFrame;
     private bool cursorIsOverStage = false;
@@ -104,6 +107,8 @@ public class Player : MonoBehaviour
     public static int RemainingLives = 40;
 
 
+    public static int RemainingLives = 40;
+
 
 
     void ArrowKeyMovement()
@@ -124,12 +129,27 @@ public class Player : MonoBehaviour
         {
             targetPosition.x -= ArrowKeySpeed * Time.deltaTime;
         }
+        else if (Input.GetKey(KeyCode.DownArrow))
+        {
+            targetPosition.z -= ArrowKeySpeed * Time.deltaTime;
+        }
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            targetPosition.x += ArrowKeySpeed * Time.deltaTime;
+        }
+        else if (Input.GetKey(KeyCode.LeftArrow))
+        {
+
+            targetPosition.x -= ArrowKeySpeed * Time.deltaTime;
+        }
     }
     void MouseDragMovement()
     {
         if (Input.GetMouseButton(1))
         {
+
             Vector3 movement = new Vector3(-Input.GetAxis("Mouse X"), 0, -Input.GetAxis("Mouse Y")) * MouseDragSensitivity;
+
             if (movement != Vector3.zero)
             {
                 targetPosition += movement;
@@ -150,6 +170,10 @@ public class Player : MonoBehaviour
         targetPosition.y = Mathf.Clamp(targetPosition.y, MinimumX, MaximumX);
         targetPosition.z = Mathf.Clamp(targetPosition.z, MinimumX, MaximumX);
         if (Trans.position != targetPosition)
+
+        {
+            Trans.position = Vector3.Lerp(Trans.position, targetPosition, 1 - MovementSmoothing);
+        if (Trans.position != targetPosition)
         {
             Trans.position = Vector3.Lerp(Trans.position, targetPosition, 1 - MovementSmoothing);
         }
@@ -157,8 +181,10 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         targetPosition = Trans.position;
         GroundEnemy.Path = new UnityEngine.AI.NavMeshPath();
+
         UpdateEnemyPath();
 
     }
@@ -243,7 +269,7 @@ public class Player : MonoBehaviour
         }
     }
     private void OnEscape()
-    {
+{
         if (ExitGamePanel.activeSelf)
         {
             Time.timeScale = 1;
@@ -412,7 +438,6 @@ public class Player : MonoBehaviour
         }
         enemy.Trans.SetParent(EnemyHolder);
         enemiesSpawnedThisLevel += 1;
-
         if (enemiesSpawnedThisLevel >= EnemiesPerLevel)
         {
             CancelInvoke("SpawnEnemy");
